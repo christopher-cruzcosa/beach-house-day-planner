@@ -1,7 +1,8 @@
 
 
 $("#currentDay").text(moment().format('dddd, MMMM Do'));
-var currentHour = moment().format("k");
+var currentHour = parseInt(moment().format("kk"));
+console.log(currentHour)
 var hour9Text = $("#hour-9").find("textArea");
 var hour10Text = $("#hour-10").find("textArea");
 var hour11Text = $("#hour-11").find("textArea");
