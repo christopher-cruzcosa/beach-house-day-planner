@@ -3,7 +3,7 @@ A day planner with a focus on beach life.
 
 ## Installation
 
-This web app is made up of an Index.html file and a script.js file, which controls the day planner functionality.
+This web app is primarily made up of an Index.html file and a script.js file, which controls the day planner functionality.  There is also a css file that sets style.
 
 The location is: https://christopher-cruzcosa.github.io/beach-house-day-planner/
 
@@ -12,7 +12,13 @@ The location is: https://christopher-cruzcosa.github.io/beach-house-day-planner/
 
 ![Screenshot](./assets/images/screenshot1.png)
 
+Users will initially see an empty work day schedule.  Each hour is color-coded as follows:
 
+- Red = present hour
+- Green = future hour
+- Grey = past hour
+
+Users are able to add an event to each hour by typing into the blank (or currently filled) input space next to the written out hour.  If the user clicks the floppy disk icon next to the new event, it will save that text string to local storage.  
 
 
 ## Credits
